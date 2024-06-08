@@ -101,7 +101,6 @@ nav {
         right: 0;
         background-color: var(--bgBlue);
         transition: 200ms all;
-        /* transform: translateX(100%); */
         width: 0;
         overflow: hidden;
         z-index: 999;

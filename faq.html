@@ -131,18 +131,17 @@
 </body>
 
 <script>
-    let bar = document.querySelector(".fa-bars");
+     let bar = document.querySelector(".fa-bars");
     let responsiveNav = document.querySelector(".responsiveNav");
     let closeBtn = document.querySelector(".fa-xmark");
 
     bar.addEventListener('click', () => {
-        responsiveNav.style.transform = "translateX(0)";
+        responsiveNav.style.width = "80%";
     });
 
     closeBtn.addEventListener('click', () => {
-        responsiveNav.style.transform = "translateX(100%)";
+        responsiveNav.style.width = "0%";
     });
-
 
     const buttons = document.querySelectorAll('button');
 
