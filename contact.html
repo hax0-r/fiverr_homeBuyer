@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Existing Homebuyers, Fast & Profitable Real Estate Investments</title>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div class="main">
+                <a href="./index.html"><img src="./Assets/Home/logo.webp" alt="Logo"></a>
+                <ul>
+                    <li><a id="homeN" href="./index.html">Home</a></li>
+                    <li><a id="aboutN" href="./about.html">About</a></li>
+                    <li><a id="faqN" href="./faq.html">FAQ</a></li>
+                    <li><a id="contactN" href="./contact.html">Contact</a></li>
+                    <li><a id="privacyN" href="./privacyPolicy.html">Privacy Policy</a></li>
+                </ul>
+                <a href="./contact.html">
+                    <button>Contact us</button>
+
+                </a>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="responsiveNav">
+                <div class="main">
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul>
+                        <li><a id="homeN" href="">Home</a></li>
+                        <li><a id="aboutN" href="">About</a></li>
+                        <li><a id="faqN" href="">FAQ</a></li>
+                        <li><a id="contactN" href="">Contact</a></li>
+                        <li><a id="privacyN" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="contact">
+            <h3>CONTACT</h3>
+            <h1>SEVERAL WAYS TO CONTACT US</h1>
+        </div>
+        <div class="form">
+            <div class="main">
+                <div class="content">
+                    <h1>HAVE A QUESTION?
+                        CONTACT US!</h1>
+                    <p>You can reach us through traditional means or through any one of our social media pages. We will
+                        always
+                        respond within 24 hours of any contact submission.</p>
+                    <h2>E-Mail US</h2>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="">TEAM@EXISTINGHOMEBUYERS.COM</a>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>CALL US</h2>
+                    <a href="">+1 (307) 216-3774</a>
+
+                </div>
+                <form action="">
+                    <div class="main">
+                        <div class="first">
+                            <div class="l">
+                                <label for="">First Name <span>*</span></label>
+                                <input type="text" placeholder="First Name">
+                            </div>
+                            <div class="r">
+                                <label for="">Last Name </label>
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="second">
+                            <label for="">E-Mail <span>*</span></label>
+                            <input type="email" placeholder="E-Mail Address">
+                        </div>
+                        <div class="third">
+                            <label for="">Subject <span>*</span></label>
+                            <input type="text" placeholder="Subject Address">
+                        </div>
+                        <div class="forth">
+                            <label for="">Subject <span>*</span></label>
+                            <textarea rows="6" placeholder="Your Message"></textarea>
+                        </div>
+                        <button>Submit Form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+    <footer>
+        <div class="main">
+            <div class="first">
+                <a href="/index.html">
+                    <img src="./Assets/Home/logo.webp" alt="">
+                </a>
+                <h1>INVESTING IN YOUR FUTURE, ONE HOME AT A TIME</h1>
+                <p>For all media inquiries contact:</p>
+                <p>team@existinghomebuyers.com</p>
+            </div>
+            <div class="second">
+                <h1>MENU</h1>
+                <a href="./terms.html">Terms</a>
+                <a href="./privacyPolicy.html">Privacy</a>
+                <a href="./security.html">Security</a>
+                <a href="./support.html">Support</a>
+            </div>
+            <div class="third">
+                <a href="https://www.facebook.com/existinghomebuyers"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a
+                    href="https://www.instagram.com/linkshim/?u=https%3A%2F%2Fexistinghomebuyers.com%2F&e=AT0DrNX0pgBhfba8Er1yUroZKOePRa3k7_ki8qirpW9RMklKc7pmYMTvKGdqj25vO8xiHOLU46YyBdsBSIk1zXwM9mA7FxUkCdN8kGascSk_Mw"><i
+                        class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://www.youtube.com/@existinghomebuyers"><i class="fa-brands fa-youtube"></i>Youtube</a>
+                <a href="https://www.linkedin.com/company/existinghomebuyers/about/"><i
+                        class="fa-brands fa-linkedin"></i>Linkedin</a>
+            </div>
+            <div class="fourth">
+                <h1>SUBSCRIBE & LEARN MORE!</h1>
+                <button>SIGN UP</button>
+            </div>
+        </div>
+    </footer>
+    <div class="footerBottom">
+        <p>© 2024 existinghomebuyers.com</p>
+    </div>
+</body>
+
+<script>
+    let bar = document.querySelector(".fa-bars");
+    let responsiveNav = document.querySelector(".responsiveNav");
+    let closeBtn = document.querySelector(".fa-xmark");
+
+    bar.addEventListener('click', () => {
+        responsiveNav.style.width = "80%";
+    });
+
+    closeBtn.addEventListener('click', () => {
+        responsiveNav.style.width = "0%";
+    });
+</script>
+
+</html>

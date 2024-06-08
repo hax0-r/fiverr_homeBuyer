@@ -101,7 +101,9 @@ nav {
         right: 0;
         background-color: var(--bgBlue);
         transition: 200ms all;
-        transform: translateX(100%);
+        /* transform: translateX(100%); */
+        width: 0;
+        overflow: hidden;
         z-index: 999;
 
         .main {
@@ -299,6 +301,7 @@ nav {
 .howItWork {
     padding: 5vw 3vw;
     padding-top: 0;
+    overflow: hidden;
 
     .main {
         display: flex;
