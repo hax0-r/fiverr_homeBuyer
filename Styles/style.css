@@ -92,7 +92,7 @@ nav .main i:hover {
 nav .responsiveNav {
   height: 100vh;
   width: 80%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   background-color: var(--bgBlue);
