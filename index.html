@@ -25,7 +25,6 @@
                 </ul>
                 <a href="./contact.html">
                     <button>Contact us</button>
-
                 </a>
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -33,22 +32,22 @@
                 <div class="main">
                     <i class="fa-solid fa-xmark"></i>
                     <ul>
-                        <li><a id="homeN" href="">Home</a></li>
-                        <li><a id="aboutN" href="">About</a></li>
-                        <li><a id="faqN" href="">FAQ</a></li>
-                        <li><a id="contactN" href="">Contact</a></li>
-                        <li><a id="privacyN" href="">Privacy Policy</a></li>
+                        <li><a id="homeN" href="./index.html">Home</a></li>
+                        <li><a id="aboutN" href="./about.html">About</a></li>
+                        <li><a id="faqN" href="./faq.html">FAQ</a></li>
+                        <li><a id="contactN" href="./contact.html">Contact</a></li>
+                        <li><a id="privacyN" href="./privacyPolicy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="section1">
-            <video autoplay muted loop>
-                <source src="./Assets/Home/video.mp4">
+            <video id="backgroundVideo" autoplay muted loop>
+                <source src="./Assets/Home/video.mp4" id="videoSource">
             </video>
             <h1>INVEST IN <span>RESIDENTIAL REAL ESTATE</span> WITH US</h1>
             <div>
-                <button>LET GET STARTED</button>
+                <button>LET'S GET STARTED</button>
             </div>
         </div>
         <div class="whyChoose">
@@ -179,7 +178,9 @@
             </div>
             <div class="fourth">
                 <h1>SUBSCRIBE & LEARN MORE!</h1>
-                <button>SIGN UP</button>
+                <a href="https://form.existinghomebuyers.com">
+                    <button>SIGN UP</button>
+                </a>
             </div>
         </div>
     </footer>
@@ -200,6 +201,27 @@
     closeBtn.addEventListener('click', () => {
         responsiveNav.style.width = "0%";
     });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    const videoSource = document.getElementById('videoSource');
+    const videoElement = document.getElementById('backgroundVideo');
+
+    function updateVideoSource() {
+        if (window.innerWidth < 500) {
+            videoSource.src = './Assets/Home/Mobilevideo.mp4';
+        } else {
+            videoSource.src = './Assets/Home/video.mp4';
+        }
+        videoElement.load();  // Reload the video with the new source
+    }
+
+    updateVideoSource();  // Initial check
+
+    window.addEventListener('resize', updateVideoSource);  // Update on resize
+});
+
+    
 </script>
 
 </html>
