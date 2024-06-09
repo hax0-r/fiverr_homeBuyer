@@ -154,7 +154,7 @@
    padding: 5vw 3vw;
  }
  .term h1 {
-   font-size: clamp(2rem, 7.458rem, 2.7rem);
+   font-size: clamp(2rem, -0.875rem + 8.333vw, 2.7rem);
    color: var(--bgBlue);
    padding-bottom: 1.8rem;
    padding-top: 2.2rem;
@@ -216,7 +216,7 @@
    height: 5rem;
  }
  footer .main .first h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding: 1.5rem 0;
  }
@@ -229,7 +229,7 @@
    padding-top: 2rem;
  }
  footer .main .second h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 1.2rem;
  }
@@ -289,7 +289,7 @@
    padding-top: 2rem;
  }
  footer .main .fourth h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 2rem;
  }

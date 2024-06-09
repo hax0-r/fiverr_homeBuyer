@@ -174,7 +174,7 @@
    padding: 1rem;
  }
  .contact h1 {
-   font-size: clamp(1.2rem, 7.458rem, 2rem);
+   font-size: clamp(1.2rem, -0.875rem + 8.333vw, 2rem);
    color: var(--white);
  }
  .contact h3 {
@@ -209,7 +209,7 @@
    gap: 1.5rem;
  }
  .form .main .content h1 {
-   font-size: clamp(1.2rem, 7.458rem, 2rem);
+   font-size: clamp(1.2rem, -0.875rem + 8.333vw, 2rem);
    font-weight: 400;
    color: var(--bgBlue);
  }
@@ -233,7 +233,7 @@
  .form .main .content a {
    text-decoration: none;
    color: var(--black-color);
-   font-size: clamp(1rem, 7.458rem, 1.2rem);
+   font-size: clamp(1rem, -0.875rem + 8.333vw, 1.2rem);
  }
  .form .main form .main {
    display: -webkit-box;
@@ -467,7 +467,7 @@
    height: 5rem;
  }
  footer .main .first h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding: 1.5rem 0;
  }
@@ -480,7 +480,7 @@
    padding-top: 2rem;
  }
  footer .main .second h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 1.2rem;
  }
@@ -540,7 +540,7 @@
    padding-top: 2rem;
  }
  footer .main .fourth h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 2rem;
  }

@@ -174,7 +174,7 @@
  }
  .transformaing h1 {
    max-width: 65rem;
-   font-size: clamp(1.2rem, 7.458rem, 2rem);
+   font-size: clamp(1.2rem,-0.875rem + 8.333vw, 2rem);
    color: var(--white);
  }
  .transformaing h3 {
@@ -234,7 +234,7 @@
    margin-bottom: 2rem;
  }
  .partnerWithUs .main .content h1 {
-   font-size: clamp(1.5rem, 7.458rem, 2rem);
+   font-size: clamp(1.5rem,-0.875rem + 8.333vw, 2rem);
    color: var(--bgBlue);
    margin-bottom: 2rem;
    font-weight: 400;
@@ -284,7 +284,7 @@
    text-align: center;
  }
  .rapidRoy .main h1 {
-   font-size: clamp(1.1rem, 7.458rem, 1.5rem);
+   font-size: clamp(1.1rem,-0.875rem + 8.333vw, 1.5rem);
  }
  .rapidRoy .main p {
    font-family: var(--ibn-font);
@@ -331,7 +331,7 @@
    max-width: 50rem;
  }
  .maximize .main .content h1 {
-   font-size: clamp(1.5rem, 7.458rem, 2rem);
+   font-size: clamp(1.5rem,-0.875rem + 8.333vw, 2rem);
    color: var(--bgBlue);
    margin-bottom: 2rem;
  }
@@ -384,7 +384,7 @@
  }
  .areYouReady h1 {
    max-width: 65rem;
-   font-size: clamp(1.2rem, 7.458rem, 2rem);
+   font-size: clamp(1.2rem,-0.875rem + 8.333vw, 2rem);
    color: var(--white);
  }
  .areYouReady a button {
@@ -428,7 +428,7 @@
    height: 5rem;
  }
  footer .main .first h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem,-0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding: 1.5rem 0;
  }
@@ -441,7 +441,7 @@
    padding-top: 2rem;
  }
  footer .main .second h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem,-0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 1.2rem;
  }
@@ -501,7 +501,7 @@
    padding-top: 2rem;
  }
  footer .main .fourth h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 2rem;
  }

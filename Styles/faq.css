@@ -158,7 +158,7 @@
    background-size: cover;
  }
  .faq h1 {
-   font-size: clamp(1.2rem, 7.458rem, 2rem);
+   font-size: clamp(1.2rem, -0.875rem + 8.333vw, 2rem);
    text-align: center;
    color: var(--white);
    padding-top: 1rem;
@@ -189,14 +189,14 @@
    padding: 20px 15px;
    border: none;
    outline: none;
-   font-size: clamp(0.5rem, 7.458rem, 1.2rem);
+   font-size: clamp(0.5rem, -0.875rem + 8.333vw, 1.2rem);
    color: #fff;
    cursor: pointer;
  }
  .faq .question p {
    font-family: var(--ibn-font);
    text-align: center;
-   font-size: clamp(0.5rem, 7.458rem, 1.2rem);
+   font-size: clamp(0.5rem, -0.875rem + 8.333vw, 1.2rem);
    max-height: 0;
    opacity: 0;
    line-height: 1.5;
@@ -250,7 +250,7 @@
    height: 5rem;
  }
  footer .main .first h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding: 1.5rem 0;
  }
@@ -263,7 +263,7 @@
    padding-top: 2rem;
  }
  footer .main .second h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 1.2rem;
  }
@@ -323,7 +323,7 @@
    padding-top: 2rem;
  }
  footer .main .fourth h1 {
-   font-size: clamp(1.05rem, 7.458rem, 1.1rem);
+   font-size: clamp(1.05rem, -0.875rem + 8.333vw, 1.1rem);
    font-weight: 400;
    padding-bottom: 2rem;
  }
